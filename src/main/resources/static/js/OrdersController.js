@@ -26,7 +26,7 @@ function addNewOrder() {
             })
             .catch(function (error) {
                 console.log(error);
-                alert("There is a problem with our servers. We apologize for the inconvince, please try again later");
+                alert("ADD There is a problem with our servers. We apologize for the inconvince, please try again later");
             });
 }
 
@@ -77,7 +77,7 @@ function loadOrders() {
             })
             .catch(function (error) {
                 console.log(error);
-                alert("There is a problem with our servers. We apologize for the inconvince, please try again later");
+                alert("LOAD There is a problem with our servers. We apologize for the inconvince, please try again later");
             });
 }
 
@@ -88,6 +88,6 @@ function removeOrderById(id) {
             })
             .catch(function (error) {
                 console.log(error);
-                alert("There is a problem with our servers. We apologize for the inconvince, please try again later");
+                alert("REMOVE There is a problem with our servers. We apologize for the inconvince, please try again later");
             });
 }
