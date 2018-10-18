@@ -155,7 +155,7 @@ public class OrdersAPIController {
     }
 
     //Posible implementacion.
-    @DeleteMapping("/{tableId}")
+    @RequestMapping(method = RequestMethod.DELETE, path = "/{tableId}")
     public ResponseEntity<?> manejadorDeleteReleaseTable(@PathVariable int tableId) {
         try {
             ros.releaseTable(tableId);
